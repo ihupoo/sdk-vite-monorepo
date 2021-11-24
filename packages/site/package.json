@@ -8,8 +8,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@sdk/utils": "workspace:^0.0.1",
     "@sdk/core": "workspace:^0.0.1",
+    "@sdk/utils": "workspace:^0.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
@@ -17,6 +17,7 @@
     "@types/react": "^17.0.36",
     "@types/react-dom": "^17.0.11",
     "@vitejs/plugin-react": "^1.1.0",
-    "vite": "^2.6.14"
+    "vite": "^2.6.14",
+    "vite-plugin-svgr": "^0.6.0"
   }
 }

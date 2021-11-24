@@ -1,7 +1,6 @@
 {
 	"name": "sdk-vite-monorepo",
 	"version": "0.0.1",
-	"scripts": {},
 	"devDependencies": {
 		"eslint-config-cv": "^0.1.0",
 		"eslint-config-prettier": "^8.3.0",

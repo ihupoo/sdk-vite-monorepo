@@ -10,30 +10,20 @@ export default defineConfig([
 		input: 'src/index.ts',
 		output: [
 			{
-				file: 'dist/umd/bundle.js',
+				file: 'dist/bundle.umd.js',
 				format: 'umd',
 				name: 'sdkCore',
 				sourcemap: true,
 			},
-		],
-		plugins: [typescript({ tsconfig: './tsconfig.json' }), resolve(), commonjs(), strip(), json()],
-	},
-	{
-		input: 'src/index.ts',
-		output: [
 			{
-				// file: 'es/bundle.es.js',
-				format: 'esm',
-				preserveModules: true,
-				preserveModulesRoot: 'src',
-				dir: 'dist/esm',
+				file: 'dist/bundle.es.js',
+				format: 'es',
+				sourcemap: true,
 			},
 			{
-				dir: 'dist/cjs',
+				file: 'dist/bundle.cjs.js',
 				format: 'cjs',
-				preserveModules: true,
-				preserveModulesRoot: 'src',
-				exports: 'named',
+				sourcemap: true,
 			},
 		],
 		plugins: [typescript({ tsconfig: './tsconfig.json' }), resolve(), commonjs(), strip(), json()],
