@@ -1,0 +1,7 @@
+{
+  "name": "@test/examples",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.ts",
+  "dependencies": {}
+}
