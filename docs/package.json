@@ -1,5 +1,5 @@
 {
-  "name": "@test/docs",
+  "name": "@sdk/docs",
   "version": "0.0.1",
   "description": "",
   "main": "index.ts",
